@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'forta';
+    src: url('./font/FortaWebsite.tff');
+}
+
+div.container {
+    font-family: 'forta';
+
+    header {
+        h1 {
+
+            /*float: left;*/
+        }
+    }
+
+    div.introbox {
+        div.overlay-text{
+            h3{
+                font-size: 30px;
+            }
+            h1{
+                font-size: 100px;
+            }
+        }
+    }
+
+    section.content {
+        div.nav {
+            &.top-nav {
+                font-size: 18px;
+            }
+        }
+
+        div.designphilosophy{
+            h2 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        div.about {
+            article {
+                h1 {
+                    font-size: 60px;
+                }
+                h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    section.footer {
+        div.footer-content {
+            h4 {
+                font-size: 30px;
+            }
+            article.footer-item {
+
+            }
+        }
+    }
+}
+
