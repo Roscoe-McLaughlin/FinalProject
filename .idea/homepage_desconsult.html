@@ -5,6 +5,7 @@
     <title>Design Consultation</title>
     <link rel="stylesheet" type="text/css" href="stylesheet-pagelayout.css">
     <link rel="stylesheet" type="text/css" href="typography.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -18,6 +19,21 @@
                 <a href = "workpage_desconsult.html">Works</a><span></span>
                 <a href = "contact_desconsult.html">Contact</a><span></span>
                 <a href = "startdesigning_desconsult.html">Start Designing</a><span></span>
+            </div>
+
+            <div class="nav phonenav">
+                <a href="homepage_desconsult.html" class="active">McLaughlin Design</a>
+
+                <div id="myLinks">
+                    <a href = "homepage_desconsult.html">Home</a>
+                    <a href = "workpage_desconsult.html">Works</a>
+                    <a href = "contact_desconsult.html">Contact</a>
+                    <a href = "startdesigning_desconsult.html">Start Designing</a>
+                </div>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
 
             <div class = "introbox">
@@ -86,6 +102,17 @@
             </div>
         </section>
     </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
 </html>

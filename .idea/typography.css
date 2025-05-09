@@ -16,10 +16,10 @@ div.container {
     div.introbox {
         div.overlay-text{
             h3{
-                font-size: 30px;
+                font-size: 3vw;
             }
             h1{
-                font-size: 100px;
+                font-size: 7vw;
             }
         }
     }
